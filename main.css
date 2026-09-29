@@ -1,0 +1,72 @@
+/* 태그 선택자 */
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  color: aqua;
+  font-size: 24px;
+  background-color: violet;
+}
+
+p {
+  color: blue;
+  font-size: 24px;
+}
+
+/* 클래스선택자 */
+h2 {
+  font-size: 32px;
+}
+
+.menu1 {
+  color: red;
+}
+
+.menu2 {
+  color: green;
+}
+
+.menu3 {
+  color: brown;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  border: 2px solid;
+}
+
+.box1 {
+  background-color: yellow;
+  border-radius: 50px;
+}
+
+.box3 {
+  background-color: lightpink;
+  border-radius: 20px;
+}
+
+/* id 선택자 */
+#title {
+  font-size: 48px;
+}
+
+#title2 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 여러선택자 한번에 */
+h4,
+.desk {
+  font-size: 24px;
+  color: red;
+}
+
+#dick,
+.smallTitle {
+  color: blue;
+}

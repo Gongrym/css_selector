@@ -1,0 +1,13 @@
+/* div안에 있는 모든 p 선택 */
+div p {
+  color: red;
+}
+
+/* 자식선택자 (자손이랑 다르다함) */
+.section2 p {
+  color: blue;
+}
+
+.section2 section {
+  color: red;
+}
